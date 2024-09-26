@@ -83,19 +83,19 @@
         "rector/rector": "^1.0.2"
     },
     "replace": {
-        "payum/core": "^1",
-        "payum/paypal-express-checkout-nvp": "self.version",
-        "payum/paypal-pro-checkout-nvp": "self.version",
-        "payum/paypal-rest": "self.version",
-        "payum/paypal-ipn": "self.version",
-        "payum/klarna-checkout": "self.version",
-        "payum/klarna-invoice": "self.version",
-        "payum/authorize-net-aim": "self.version",
-        "payum/be2bill": "self.version",
-        "payum/payex": "self.version",
-        "payum/offline": "self.version",
-        "payum/stripe": "self.version",
-        "payum/sofort": "self.version"
+        "payum/core": ">=1.7 <=1.7.5",
+        "payum/paypal-express-checkout-nvp": ">=1.7 <=1.7.5",
+        "payum/paypal-pro-checkout-nvp": ">=1.7 <=1.7.5",
+        "payum/paypal-rest": ">=1.7 <=1.7.5",
+        "payum/paypal-ipn": ">=1.7 <=1.7.5",
+        "payum/klarna-checkout": ">=1.7 <=1.7.5",
+        "payum/klarna-invoice": ">=1.7 <=1.7.5",
+        "payum/authorize-net-aim": ">=1.7 <=1.7.5",
+        "payum/be2bill": ">=1.7 <=1.7.5",
+        "payum/payex": ">=1.7 <=1.7.5",
+        "payum/offline": ">=1.7 <=1.7.5",
+        "payum/stripe": ">=1.7 <=1.7.5",
+        "payum/sofort": ">=1.7 <=1.7.5"
     },
     "conflict": {
         "league/uri-components": "<1.7.1"
